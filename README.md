@@ -36,7 +36,9 @@ Steps for executing the project:
     cd C:\kafka_2.12-2.4.0
 
     run command to create topic : 
+    
     bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic input-topic
+    
     bin\windows\kafka-topics.bat --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic square-output
     
 7. Run Spring boot application
